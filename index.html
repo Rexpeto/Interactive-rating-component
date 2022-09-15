@@ -10,31 +10,37 @@
 <body>
 
   <!-- Rating state start -->
+  <section class="rating-state">
+    <div class="rating-state__star">
+      <img src="images/icon-star.svg" alt="Star" class="rating-state__star__img">
+    </div>
+    <h2 class="rating-state__title">How did we do?</h2>
+    <p class="rating-state__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
+    <div class="rating-state__numbers">
+      <button class="rating-state__numbers__number">1</button>
+      <button class="rating-state__numbers__number">2</button>
+      <button class="rating-state__numbers__number">3</button>
+      <button class="rating-state__numbers__number">4</button>
+      <button class="rating-state__numbers__number">5</button>
+    </div>
+    <button class="rating-state__submit">Submit</button>
+  </section>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
+  <section class="thankyou-state">
+    <img src="images/illustration-thank-you.svg" alt="Thank You" class="thankyou-state__img">
+    <div class="thankyou-state__result">You selected <span id="result"></span> out of 5</div>
+    <h2 class="thankyou-state__title">Thank you!</h2>
+    <p class="thankyou-state__text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </section>
   <!-- Thank you state end -->
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https:\\www.github.com\Rexpeto" target="_blank">Carlos Gallardo</a>.
+    Coded by <a href="https://www.github.com/Rexpeto" target="_blank">Carlos Gallardo</a>.
   </footer>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
